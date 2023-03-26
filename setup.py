@@ -12,6 +12,7 @@ version = re.search(r"""__version__ *= *['"]([^'"]+)['"]""", (PROJ_ROOT / "src/v
 replacePackagePath = partial(re.compile(r'^src').sub, 'rsstt')
 
 source_packages = find_packages(include=['src', 'src.*'])
+
 proj_packages = [replacePackagePath(name) for name in source_packages]
 
 setup(

@@ -21,7 +21,7 @@ async def run(port: Optional[int] = 5000):
     await runner.setup()
     site = web.TCPSite(runner, port=port)
     await site.start()
-    logger.info(f'Redirect server listening on port {port}')
+    logger.info(f' Redirect server listening on port {port}')
 
 
 if __name__ == '__main__':

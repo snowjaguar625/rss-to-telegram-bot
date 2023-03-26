@@ -1,4 +1,4 @@
-"""Containing something makes the bot compatible with Python 3.7 ~ 3.10, ThreadPoolExecutor/ProcessPoolExecutor."""
+"""Containing something makes the bot compatible with Python 3.7 ~ 3.10, ThreadPoolExecutor/ProcessPoolExecutor"""
 from __future__ import annotations
 
 import sys
